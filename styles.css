@@ -12,7 +12,7 @@ body {
 }
 
 .hero-picture-container {
-    background-color: gray;
+    background-color: #908f8f;
     width: 500px;
     height: 200px;
     display: flex;
@@ -27,6 +27,8 @@ body {
 }
 
 .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     list-style: none;
     margin: 0;
@@ -41,7 +43,7 @@ body {
 
 .hero-container {
     display: flex;
-
+    padding-right: 24px;
 }
 
 .hero-text {
@@ -49,6 +51,25 @@ body {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    gap: 8px;
 }
 
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
 
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+}
