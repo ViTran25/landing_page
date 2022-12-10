@@ -75,3 +75,8 @@ body {
     border-radius: 8px;
     border: 1px solid #3882F6;
 }
+
+.second-section {
+    text-align: center;
+    padding: 32px 250px 80px;
+}
