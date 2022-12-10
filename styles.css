@@ -8,7 +8,8 @@ body {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 16px 200px;
+    padding: 16px 200px 80px;
+    gap: 80px;
 }
 
 .hero-picture-container {
@@ -19,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    flex-shrink: 0;
 }
 
 .header {
