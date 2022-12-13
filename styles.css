@@ -112,3 +112,23 @@ body {
     font-size: 18px;
     color: #323333;
 }
+
+/*Third section*/
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 360px 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-owner {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 24px;
+}
