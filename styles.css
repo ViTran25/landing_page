@@ -68,13 +68,15 @@ body {
 }
 
 .sign-up {
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 8px;
     border: 1px solid #3882F6;
+    font-size: 18px;
+    padding: 0 16px;
 }
 
 /*Second section*/
@@ -144,8 +146,21 @@ body {
 .call-to-action-container {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 40px 80px;
+    padding: 40px 120px;
     border-radius: 10px;
     display: flex;
-    gap: 120px;
+    gap: 160px;
+}
+
+.call-to-action-main-text {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.call-to-action-subtext {
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    border: 3px solid #F9FAF8;
 }
