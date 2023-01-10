@@ -220,21 +220,27 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #f3f6e5;
 }
 
 .call-to-action-container {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 40px 120px;
-    border-radius: 10px;
+    background-color: #dcdfd5;
+    color: #723a36;
+    border: 12px solid #74423a;
+    margin: 128px 48px;
+    padding: 40px 48px;
+    border-radius: 50px;
+    max-width: 1100px;
     display: flex;
-    gap: 160px;
+    gap: 50px;
 }
 
 .call-to-action-main-text {
     font-size: 24px;
     font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .call-to-action-subtext {
@@ -242,7 +248,20 @@ h1 {
 }
 
 .call-to-action-button {
-    border: 3px solid #F9FAF8;
+    flex-shrink: 0;
+    height: 56px;
+    width: 128px;
+    padding: 4px 24px;
+    margin: 24px auto;
+    background-color: #f3f6e5;
+    border: 3px solid #74423a;
+    box-shadow: 2px 2px 3px black;
+}
+
+.call-to-action-button:hover {
+    font-weight: 900;
+    border-color: burlywood;
+    cursor: pointer;
 }
 
 /*Footer*/
@@ -259,8 +278,7 @@ h1 {
     font-size: 18px;
 }
 
-/*Portfolio/
-/* Project portfolio section */
+/*Portfolio*/
 .portfolio-section {
     justify-content: center;
     border-bottom: solid black 1px;
