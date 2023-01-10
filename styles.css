@@ -136,7 +136,9 @@ h1 {
 
 /*Second section*/
 .second-section {
-    background-color: whitesmoke;
+    background-color: #ffa355;
+    background-image: linear-gradient(60deg, #97d1ff, transparent);
+    border-bottom: 1px solid black;
 }
 
 .member-title {
